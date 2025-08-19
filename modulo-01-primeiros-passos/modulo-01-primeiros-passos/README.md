@@ -4,7 +4,7 @@ Este projeto foi desenvolvido como parte do **Bootcamp Santander Front-End** na 
 
 ## 🚀 Objetivo
 - Praticar o uso de tags HTML aprendidas até o momento:
-  `<h1>` a `<h6>`, `<p>`, `<mark>`, `<small>`, `<i>`, `<u>`, `<strong>`, `<ol>`, `<ul>`, `<li>`, `<a>`, `<hr>`, `<sub>`, `<sup>`, `<blockquote>`, `<font>`, `<del>`, `<abbr>`.
+  `<h1>` a `<h6>`, `<p>`, `<mark>`, `<i>`, `<u>`, `<strong>`, `<ol>`, `<ul>`, `<li>`, `<a>`, `<hr>`, `<blockquote>`, `<font>`, `<abbr>`.
 
 ## 💻 Projeto
 - Criar um website simples com **estrutura básica HTML**.
