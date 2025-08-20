@@ -32,7 +32,7 @@ Um site moderno e responsivo que apresenta informações completas sobre o filme
 ## 🔗 Links  
 
 - [Trailer Oficial no YouTube](https://www.youtube.com/watch?v=2K_LUXYM8To)  
-- [Repositório GitHub](#) *(https://github.com/GabrielCotrimMiron/bootcamp-santander-frontend/tree/main/modulo-01/modulo-01-wikipedia-moderna)*  
+- [Repositório GitHub](https://github.com/GabrielCotrimMiron/bootcamp-santander-frontend/tree/main/modulo-01/modulo-01-wikipedia-moderna) 
 
 ---
 
