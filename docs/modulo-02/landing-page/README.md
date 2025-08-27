@@ -24,9 +24,8 @@ Este desafio pediu que personalizássemos uma landing page base fornecida pelo c
 ---
 
 ## 💡 Observações rápidas
-- Baixe **todo o repositório** ou a pasta do projeto — abrir só o `index.html` sem as pastas de assets fará faltar imagens/estilos.  
-- O site é estático — perfeito para exibir em portfólio local ou hospedar (ex.: GitHub Pages) se desejar depois.
-
+- Baixe **todo o repositório** ou a pasta do projeto — abrir só o `index.html` sem as pastas de assets fará faltar imagens/estilos.
+- 
 ---
 
 ## 👨‍💻 Autor
