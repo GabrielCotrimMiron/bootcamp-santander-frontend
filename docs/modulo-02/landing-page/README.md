@@ -31,5 +31,3 @@ Este desafio pediu que personalizássemos uma landing page base fornecida pelo c
 
 ## 👨‍💻 Autor
 **Gabriel Cotrim Miron** — desenvolvido durante o **Bootcamp Santander Frontend** (parceria DIO.me).
-
-Se quiser, eu já deixo esse README pronto no seu repositório (eu gero o conteúdo; você cola no arquivo). Quer que eu crie a versão final pra você já?  
