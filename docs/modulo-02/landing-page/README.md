@@ -1,7 +1,7 @@
 # 🌐 Trilha de CSS — Landing Page (DIO + Santander)
 
 Projeto desenvolvido durante o **Bootcamp Santander Frontend**, em parceria com a **DIO.me**.  
-Este desafio pediu que personalizássemos uma landing page base fornecida pelo curso — o foco foi **estilização em CSS puro** para deixar a página moderna, visual e responsiva.
+Este desafio pediu que personalizássemos uma landing page base fornecida pelo curso — o foco foi **estilização em CSS puro** para deixar a página moderna e visual
 
 ---
 
