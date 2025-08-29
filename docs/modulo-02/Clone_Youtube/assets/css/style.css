@@ -1,1 +1,321 @@
+.main-layout {
+    display: flex;
+    gap: 80px;
+    padding: 24px;
+    margin-top: 56px;
+    justify-content: center;
+}
 
+.navbar {
+    width: 100%;
+    height: 56px;
+    padding: 0 24px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar .left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar .left #Menu_img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.navbar .left #Logo_img {
+    width: 90px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+
+.navbar .center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .center #Search {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #989797;
+    border-radius: 2px 0 0 2px;
+    padding: 0 8px;
+}
+
+.navbar .center .search-btn {
+    width: 57px;
+    height: 40px;
+    background: url(../img/Rectangle\ 2.png) center/cover no-repeat;
+    border: 1px solid #989797;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar .center .search-btn img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.navbar .right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 130px;
+    height: 32px;
+}
+
+.navbar .right #notif {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.navbar .right #camera {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.navbar .right #profile {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+
+main .Watching_video {
+    width: 952px;
+    height: 746px;
+    gap: 16px;
+
+}
+
+main .Watching_video p {
+    width: 871px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+main .Video_Actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+main .Video_Actions #channel_infos {
+    width: 160px;
+    height: 42px;
+    gap: 12px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .Video_Actions #channel_infos img {
+    width: 42px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+main .Video_Actions #channel_infos p {
+    width: 106px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+main .Video_Actions #channel_infos a {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+main .Video_Actions #channel_infos p span {
+    width: 106px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+
+main .Video_Actions #Subscribe {
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #CC0000;
+    border: 1px solid #CC0000;
+    color: #fff;
+}
+
+main .Video_Actions #Subscribe:hover {
+    cursor: pointer;
+    background-color: #bf0101;
+    border: 1px #bf0101;
+}
+
+main .Video_Actions #like {
+    width: 65px;
+    height: 24px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .Video_Actions #like img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+main .Video_Actions #like p {
+    width: 31px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+main .Video_Actions #deslike img {
+    width: 100px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+main .Video_Actions #compartilhar img {
+    width: 115px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+main .Video_Actions #dowload img {
+    width: 95px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+main .Watching_video #Data_video {
+    width: 440px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+
+main .Watching_video #Descricao_video {
+    width: 510px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #515151;
+    margin-top: 10px;
+}
+
+aside {
+
+    width: 400px;
+}
+
+aside .videos {
+    width: 100%;
+    height: 850px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.recommended-video {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.video-info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.recommended-video img {
+    width: 165px;
+    height: 94px;
+    border-radius: 8px;
+}
+
+.video-info-text h1 {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.video-info-text h2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    color: #515151;
+    margin: 0;
+}
