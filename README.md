@@ -15,7 +15,9 @@ Projetos maiores e que podem servir como **portfólio independente** terão seus
 
   
 - ### 🔹 Módulo 02 – Criando páginas com CSS
-- **Clone do YouTube** → Replicando a interface de uma página de vídeo do YouTube, com foco na organização e alinhamento do layout com CSS..  
+
+- **Landing Page Trilha de CSS** → Estilização de uma landing page, com foco em CSS puro para layouts modernos.
+- **Clone do YouTube** → Replicando a interface de uma página de vídeo do YouTube, com foco na organização e alinhamento do layout com CSS.
 - **Página de download do Discord** → Recriação da página oficial do Discord, com foco em layouts para desktop e mobile.**.
 
 ---
