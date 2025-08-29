@@ -11,7 +11,11 @@ Projetos maiores e que podem servir como **portfólio independente** terão seus
 
 ### 🔹 Módulo 01 – Primeiros passos com HTML
 - **Site básico com HTML** → Utilizando todas as principais tags (`h1` a `h6`, `p`, `ul`, `ol`, `a`, `mark`, `abbr`, etc).  
-- **Recriando a Wikipedia** → Criação de um layout simples, focado em **semântica e acessibilidade**.  
+- **Recriando a Wikipedia** → Criação de um layout simples, focado em **semântica e acessibilidade**.
+
+- ### 🔹 Módulo 02 – Criando páginas com CSS
+- **Clone do YouTube** → Replicando a interface de uma página de vídeo do YouTube, com foco na organização e alinhamento do layout com CSS..  
+- *Página de download do Discord** → Recriação da página oficial do Discord, com foco em layouts para desktop e mobile.**.
 
 ---
 
