@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Cotrim Miron | Portfólio</title>
+  <meta name="description" content="Portfólio de Gabriel Cotrim Miron — Engenharia de Software, projetos e reconhecimentos." />
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item"><a class="menu__link active" href="#home"><span class="menu__text">Home</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="#projetos"><span class="menu__text">Projetos</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="#sobre"><span class="menu__text">Sobre</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="#reconhecimentos"><span class="menu__text">Reconhecimentos</span></a></li>
+        <li class="menu__item"><a class="menu__link" href="#contato"><span class="menu__text">Contato</span></a></li>
+      </ul>
+    </nav>
+
+    <div class="header__brand">
+      <a href="#home"><img class="brand__logo" src="logo.png" alt="Logo GC" /></a>
+    </div>
+
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item"><a class="menu__link active" href="#home"><i class="menu__icon bi bi-house-door"></i><span class="menu__text">Home</span></a></li>
+      <li class="menu__item"><a class="menu__link" href="#projetos"><i class="menu__icon bi bi-window-stack"></i><span class="menu__text">Projetos</span></a></li>
+      <li class="menu__item"><a class="menu__link" href="#sobre"><i class="menu__icon bi bi-person"></i><span class="menu__text">Sobre</span></a></li>
+      <li class="menu__item"><a class="menu__link" href="#reconhecimentos"><i class="menu__icon bi bi-award"></i><span class="menu__text">Reconhec.</span></a></li>
+      <li class="menu__item"><a class="menu__link" href="#contato"><i class="menu__icon bi bi-envelope"></i><span class="menu__text">Contato</span></a></li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+      <p>Gabriel Cotrim Miron — Cornélio Procópio, Paraná, Brasil · Estudante de Engenharia de Software (UTFPR) · Técnico em ADS</p>
+
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/GabrielCotrimMiron" target="_blank" rel="noopener">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/gabriel-c-miron" target="_blank" rel="noopener">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>
+      </a>
+    </div>
+
+    <div class="main__content2">
+  <img
+    src="assets/images/me/LinkedIn banner profissional verde com linhas (2025_04_14 17_58_40 UTC).png"
+    alt="Banner profissional de Gabriel Miron"
+    class="hero-img"
+    loading="lazy"
+  />
+  <div class="hero-cta">
+    <a href="#projetos" class="btn btn--primary" style="width:auto;">
+      <span>Ver Projetos</span>
+      <i class="bi bi-arrow-down-right"></i>
+    </a>
+  </div>
+</div>
+  </main>
+
+  <section class="technologies">
+    <h2>Principais tecnologias</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item"><img class="technologies__logo" src="./assets/images/technologies/HTML5_logo_and_wordmark.svg.png" alt="HTML" /></li>
+      <li class="technologies__item"><img class="technologies__logo" src="./assets/images/technologies/CSS3_logo_and_wordmark.svg.png" alt="CSS" /></li>
+      <li class="technologies__item"><img class="technologies__logo" src="./assets/images/technologies/Javascript-shield.svg.png" alt="JavaScript" /></li>
+      <li class="technologies__item"><img class="technologies__logo" src="./assets/images/technologies/C_Programming_Language.svg.png" alt="C" /></li>
+      <li class="technologies__item"><img class="technologies__logo" src="./assets/images/technologies/Python.svg.png" alt="Python" /></li>
+      <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/Java_programming_language_logo.svg.png" alt="Java" /></li>
+      <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/PHP-logo.svg.png" alt="PHP" /></li>
+      <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/mysql-logo.svg" alt="MySQL" /></li>
+      <li class="technologies__item"><img class="technologies__logo" src="assets/images/technologies/xamarin.svg" alt="Xamarin" /></li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos (destaques)</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="./assets/images/projects/bobina_tesla.jpeg" alt="Bobina de Tesla Musical" />
+        <div class="card__body">
+          <h3 class="card__title">Bobina de Tesla Musical</h3>
+          <p class="card__description">Ciência, Som e Inovação — projeto finalista da 15ª FETEPS.</p>
+          <div>
+            <p>
+              Nossa equipe foi selecionada como finalista da 15ª Feira Tecnológica do Centro Paula Souza (FETEPS) com o projeto
+              <strong>Bobina de Tesla Musical</strong>, apresentado no São Paulo Expo. Inspirado em Nikola Tesla, o projeto transforma
+              faíscas elétricas em ondas sonoras, usando Arduino Uno para controlar frequências das descargas. Componentes chave:
+              Transformador Flyback, Transistor, Módulo Relé e Arduino.
+            </p>
+          </div>
+          <ul class="card__list">
+            <li class="card__item">Competências: Arduino · Eletrônica · Física · Programação · Trabalho em equipe</li>
+            <li class="card__item">Reconhecimento: Finalista 15ª FETEPS (São Paulo Expo).</li>
+          </ul>
+          <div class="card__buttons">
+            <a class="btn btn--primary" href="https://www.linkedin.com/in/gabriel-c-miron/details/projects" target="_blank" rel="noopener">
+              <span>Relatório / Documento</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/Memory_up.jpeg" alt="MemoryUp" />
+        <div class="card__body">
+          <h3 class="card__title">MemoryUp</h3>
+          <p class="card__description">Plataforma IA para revisão automática — 2º lugar no 7º Hackathon CPS (Oracle).</p>
+          <div>
+            <p>
+              O <strong>MemoryUp</strong> é uma plataforma multiplataforma que usa inteligência artificial para transformar vídeos, áudios e documentos
+              em resumos, flashcards e exercícios personalizados. Desenvolvido durante o 7º Hackathon do CPS em parceria com a Oracle, o projeto
+              conquistou o 2º lugar entre 92 equipes.
+            </p>
+          </div>
+          <ul class="card__list">
+            <li class="card__item">Competências: Banco de dados · NLP/IA básica · Figma · Trabalho em equipe</li>
+            <li class="card__item">Reconhecimento: 2º lugar no 7º Hackathon CPS (Oracle Academy Summit).</li>
+          </ul>
+          <div class="card__buttons">
+            <a class="btn btn--primary" href="https://www.youtube.com/watch?v=2wASLj6qrJU" target="_blank" rel="noopener">
+              <span>Pitch (YouTube)</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+            <a class="btn" href="https://github.com/PedroZanluqui/memoryup" target="_blank" rel="noopener">
+              <span>Protótipo / Repositório</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/workable.jpeg" alt="WorkAble" />
+        <div class="card__body">
+          <h3 class="card__title">WorkAble</h3>
+          <p class="card__description">Plataforma inclusiva para conectar PCDs a oportunidades — finalista 6º Hackathon CPS.</p>
+          <div>
+            <p>
+              O <strong>WorkAble</strong> conecta pessoas com deficiência a vagas compatíveis, oferecendo recursos de acessibilidade e um selo de inclusão
+              para empresas. A plataforma foi finalista no 6º Hackathon CPS, destacando-se pelo propósito social e pelo modelo de integração entre
+              candidatos e empresas.
+            </p>
+          </div>
+          <ul class="card__list">
+            <li class="card__item">Competências: UX (Figma) · Desenvolvimento Web · Comunicação · Gestão de produto</li>
+            <li class="card__item">Reconhecimento: Finalista 6º Hackathon CPS.</li>
+          </ul>
+          <div class="card__buttons">
+            <a class="btn btn--primary" href="assets/files/WorkAble - Devs 212.pdf" target="_blank" rel="noopener">
+              <span>Documento / Design</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+
+      <a href="https://github.com/GabrielCotrimMiron">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <section id="reconhecimentos" class="about">
+    <h2>Reconhecimentos & Prêmios</h2>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row2">
+          <ul class="about__list">
+            <li class="about__item">
+              <strong>Finalista – 15ª FETEPS</strong> (Projeto Bobina de Tesla Musical) — Apresentação no São Paulo Expo, ago de 2024.
+            </li>
+            <li class="about__item">
+              <strong>2º lugar – 7º Hackathon CPS (Oracle)</strong> — Projeto MemoryUp, out/2023 (Oracle Academy Summit).
+            </li>
+            <li class="about__item">
+              <strong>Finalista – 6º Hackathon CPS</strong> — Projeto WorkAble, jun de 2023.
+            </li>
+            <li class="about__item">
+              <strong>Medalha de Prata</strong> — Olimpíada Brasileira do Saber, jul de 2024.
+            </li>
+            <li class="about__item">
+              <strong>Medalha de Bronze</strong> — Olimpíada Brasileira de Astronomia e Astronáutica (OBA), out de 2023.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col2">
+        <h3>Descrições completas</h3>
+        <p>
+          <strong>Bobina de Tesla Musical</strong>: protótipo que gera som a partir de faíscas elétricas controladas com Arduino; apresentado na 15ª FETEPS.
+        </p>
+        <p>
+          <strong>MemoryUp</strong>: plataforma com IA que converte materiais em resumos, flashcards e exercícios; 2º lugar no Hackathon CPS.
+        </p>
+        <p>
+          <strong>WorkAble</strong>: solução para inclusão de PCDs no mercado de trabalho, com selo de inclusão e cadastro adaptado.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="./assets/images/me/foto.jpg" alt="Foto Gabriel" />
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>
+          Olá! Sou Gabriel, técnico em Análise e Desenvolvimento de Sistemas (ETEC) e atualmente estudante de Bacharelado em Engenharia de Software na UTFPR.
+          Tenho interesse crescente por tecnologia e programação, com experiência em HTML, CSS e JavaScript, além de conhecimentos em C, C#, Python, Java, PHP e Xamarin.
+        </p>
+        <p>
+          Trabalho com bancos de dados (SQL / MySQL) e tenho foco em desenvolver soluções que unam tecnologia e impacto social. Estou continuamente buscando aprendizado prático e novos desafios.
+        </p>
+
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Português (Nativo) · Inglês (Professional Working)</span>
+        </div>
+
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/gabriel-c-miron" target="_blank" rel="noopener">
+            <button class="btn btn--primary"><span>Conecte-se</span><i class="bi bi-arrow-up-right"></i></button>
+          </a>
+          <a href="assets/files/Profile.pdf" target="_blank" rel="noopener">
+            <button class="btn"><span>Currículo (PDF)</span></button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação acadêmica</h3>
+
+          <h4>Bacharelado em Engenharia — Engenharia de Software (UTFPR)</h4>
+          <span>fevereiro de 2025 - dezembro de 2028</span>
+          <p>
+            Atualmente curso Engenharia de Software na Universidade Tecnológica Federal do Paraná (UTFPR). O curso possui uma abordagem prática abrangente, com ênfase em engenharia de requisitos, arquitetura de sistemas, banco de dados e cibersegurança.
+          </p>
+
+          <h4>Curso Técnico em Desenvolvimento de Sistemas — ETEC Marinês Teodoro de Freitas Almeida</h4>
+          <span>fevereiro de 2022 - dezembro de 2024</span>
+          <p>
+            Ensino Médio integrado ao Técnico com disciplinas de programação web, banco de dados, desenvolvimento mobile, Arduino e projetos práticos. Projetos desenvolvidos: WorkAble (inclusão de PCDs), Bobina de Tesla Musical e MemoryUp.
+          </p>
+
+          <h4>Curso de Inglês — CNA</h4>
+          <span>fevereiro de 2017 - julho de 2024</span>
+          <p>
+            Mais de 8 anos de estudo em inglês com foco em conversação, gramática e escrita; base sólida para comunicação técnica e redação.
+          </p>
+
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade Tecnológica Federal do Paraná (UTFPR) · ETEC Marinês Teodoro de Freitas Almeida · CNA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <h3>Projetos escolares / destaque</h3>
+        <ul class="about__list">
+          <li class="about__item">WorkAble — plataforma de inclusão para PCDs (finalista 6º Hackathon CPS).</li>
+          <li class="about__item">Bobina de Tesla Musical — finalista na 15ª FETEPS.</li>
+          <li class="about__item">MemoryUp — 2º lugar no 7º Hackathon CPS (Oracle).</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Disponível para trabalhos, colaborações e oportunidades. Entre em contato por e-mail ou conecte-se nas redes.</p>
+
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/GabrielCotrimMiron" target="_blank" rel="noopener">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/gabriel-c-miron" target="_blank" rel="noopener">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+
+    <a href="mailto:gabrielcmiron@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">gabrielcmiron@gmail.com</span>
+      </button>
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2025. Portfólio desenvolvido por <a href="https://www.linkedin.com/in/gabriel-c-miron" target="_blank" rel="noopener">Gabriel Cotrim Miron</a>.</p>
+  </footer>
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
