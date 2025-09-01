@@ -33,11 +33,14 @@ O desafio proposto foi criar uma **Pokédex moderna**, consumindo dados de uma A
 ---
 
 ## ▶️ Como visualizar o projeto
-1. Clique no botão verde **Code** neste repositório.  
-2. Escolha a opção **Download ZIP**.  
-3. Extraia o arquivo no seu computador.  
-4. Abra a pasta e dê **duplo clique em `index.html`**.  
-5. O projeto abrirá no navegador mostrando a Pokédex.  
+
+Para que a Pokédex funcione corretamente, é necessário rodar o projeto em um **servidor local**, pois ele utiliza chamadas `fetch` para obter os dados da API.
+
+### Opção 1 – Usando Live Server no VS Code
+1. Baixe ou clone o repositório.
+2. Abra a pasta do projeto no **VS Code**.
+3. Clique com o botão direito em `index.html` e selecione **Open with Live Server**.
+4. O projeto será aberto no navegador com a Pokédex funcionando corretamente.
 
 ---
 
