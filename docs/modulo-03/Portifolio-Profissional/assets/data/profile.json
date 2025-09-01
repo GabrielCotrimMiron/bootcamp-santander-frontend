@@ -1,40 +1,40 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Gabriel C. Miron",
+  "photo": "assets/img/foto.jpg",
+  "job": "Estudante no curso de Engenharia de Software - UTFPR",
+  "location": "Cornélio Procópio - PR",
+  "phone": "(17) 99772-1021",
+  "email": "gabrielcmiron@gmail.com",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "PHP",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/php.png"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "MySql",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mysql.png"
       }
     ],
     "softSkills": [
       "Empatia",
-      "Liderança",
+      "Comunicação",
       "Trabalho em equipe",
       "Flexibilidade",
       "Organização"
@@ -42,37 +42,30 @@
   },
   "languages": [
     "Português BR",
-    "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Inglês (intermediário-avançado)"
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-      "github": true
-    },
-    {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Portfólio com sites que realizei durante minha trajetória de estudos.",
+      "url": "https://github.com/GabrielCotrimMiron?tab=repositories",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Arquiteto de software / S3 BANK",
-      "period": "2022 - até o momento",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "name": "ETEC - Escola Técnica Estadual de São Paulo - Curso Técnico em Desenvolvimento de Sistemas",
+      "period": "2022 - 2024",
+      "description": "Durante minha trajetória na ETEC, cursei o Ensino Médio integrado ao Técnico em Desenvolvimento de Sistemas. Essa formação me proporcionou uma base sólida e prática na área de tecnologia, abordando disciplinas como programação web, banco de dados, desenvolvimento mobile, Arduino e ferramentas do pacote Office. Ao longo do curso, desenvolvi projetos relevantes como o WorkAble, voltado à inclusão de PCDs no mercado de trabalho; a Bobina de Tesla Musical, que transforma impulsos elétricos em música; e o Memory Up, focado na otimização da aprendizagem. Essa experiência ampliou minha visão sobre tecnologia e reforçou habilidades como trabalho em equipe, resolução de problemas e gestão de projetos."
     },
     {
-      "name": "Software Engineering Lead / DIO",
-      "period": "2021 - 2022",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "name": "Universidade Tecnológica Federal do Paraná - Bacharelado em Engenharia de Software",
+      "period": "2025 - 2028",
+      "description": "Atualmente, curso Engenharia de Software na Universidade Tecnológica Federal do Paraná (UTFPR), uma das principais instituições de ensino do Brasil na área tecnológica. O bacharelado possui uma abordagem ampla e prática, envolvendo o desenvolvimento de software, engenharia de requisitos, arquitetura de sistemas, banco de dados e cibersegurança. Além disso, o curso fortalece habilidades como resolução de problemas, trabalho em equipe, gestão de projetos e comunicação técnica, essenciais para o mercado de tecnologia."
     },
     {
-      "name": "CEO / Brain Machine",
-      "period": "2016 - 2021",
-      "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+      "name": "CNA - Escola de Inglês",
+      "period": "2017 - 2024",
+      "description": "Durante meus mais de 8 anos na escola CNA, aprimorando meu inglês por meio de aulas teóricas, gramática, conversação, redação e muitas aulas práticas de conversação, adquiri uma base sólida no idioma, tanto para a comunicação quanto para a escrita."
     }
   ]
 }
